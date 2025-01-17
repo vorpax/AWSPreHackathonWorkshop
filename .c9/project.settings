@@ -1,10 +1,15 @@
 {
+    "build": {
+        "@saveall": true
+    },
     "extensions": {
         "@aws.samcli.lambdaTimeout": 90000,
         "@editor.acceptSuggestionOnEnter": "on",
         "@editor.snippetSuggestions": "top",
         "@editor.suggest.preview": true,
-        "@editor.suggest.showMethods": true
+        "@editor.suggest.showMethods": true,
+        "@git.githubAuthentication": "ssh",
+        "@git.suggestSmartCommit": false
     },
     "instance": {
         "@automaticShutdown": "240"
@@ -32,7 +37,7 @@
     },
     "run": {
         "configs": {
-            "@inited": "true",
+            "@inited": true,
             "json()": {}
         }
     },
